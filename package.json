@@ -1,0 +1,43 @@
+{
+  "name": "hubot-request-arm",
+  "version": "0.0.0",
+  "description": "A Hubot arm that send HTTP request",
+  "main": "index.coffee",
+  "scripts": {
+    "robot": "hubot --adapter shell",
+    "test": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-request-arm.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-arms"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-request-arm/issues"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-request-arm",
+  "devDependencies": {
+    "espower-coffee": "^0.1.0",
+    "hubot": "^2.8.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2",
+    "sinon": "^1.10.3"
+  },
+  "peerDependencies": {
+    "coffee-script": "1.7.x"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "q": "^1.0.1",
+    "request": "^2.40.0"
+  }
+}
