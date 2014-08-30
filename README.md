@@ -28,9 +28,7 @@ module.exports = function(robot) {
 
 ## Development
 
-### Run test
-
-    $ npm test
+`npm run`
 
 ## License
 
@@ -44,11 +42,14 @@ module.exports = function(robot) {
 
 [![Build Status][travis-badge]][travis]
 [![Dependencies status][david-dm-badge]][david-dm]
+[![Coverage Status][coveralls-badge]][coveralls]
 
 [travis]: https://travis-ci.org/bouzuya/hubot-request-arm
 [travis-badge]: https://travis-ci.org/bouzuya/hubot-request-arm.svg?branch=master
 [david-dm]: https://david-dm.org/bouzuya/hubot-request-arm
 [david-dm-badge]: https://david-dm.org/bouzuya/hubot-request-arm.png
+[coveralls]: https://coveralls.io/r/bouzuya/hubot-request-arm
+[coveralls-badge]: https://img.shields.io/coveralls/bouzuya/hubot-request-arm.svg
 [user]: https://github.com/bouzuya
 [mail]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
