@@ -1,6 +1,6 @@
 {
   "name": "hubot-request-arm",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Hubot arm that send HTTP request",
   "main": "index.js",
   "scripts": {
