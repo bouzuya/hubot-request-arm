@@ -4,7 +4,7 @@ sinon = require 'sinon'
 describe 'request', ->
   beforeEach ->
     @sinon = sinon.sandbox.create()
-    @request = require '../'
+    @request = require '../src/'
 
   afterEach ->
     @sinon.restore()
